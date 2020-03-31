@@ -24,45 +24,44 @@ function App() {
   return (
     <body>
       <div className="App">
-        {/* <Container maxWidth='lg' style={{ backgroundColor: '#666666', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
-          <Typography component="div" style={{ display: 'flex', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%', flexWrap: 'wrap' }} >
-            <Paper />
-            <Paper > <img src="MaterialUI.svg"  height="42" width="42" /> </Paper>
-            <Paper />
-            <Paper />
-            <Paper />
-            <Paper />
-            <Paper />
-            <Paper />
-            <Paper />
-          </Typography>
-        </Container> */}
-        <Container maxWidth='sm' style={{ backgroundColor: '#666666', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-        <h2 style={{color: '#FFFFFF'}}>SKILLS</h2>
+      <Container maxWidth='sm' style={{ backgroundColor: '#0C2E45', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+        <h2 style={{color: '#FFFFFF'}}>Hi. I'm Dinesh</h2>
+        <p className="intro">If you're wondering if I'm the character from the HBO's comedy series 'Silicon Valley', I'm not. I'm a real person with the name Dinesh Tathekalva. I'm a Senior Software Engineer, Frontend Engineer. 
+            I build web and mobile applications for a tech company. I also love and study astronomy during my free time.</p>
           <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-            <Chip skill='HTML5' />
-            <Chip skill='CSS3' />
-            <Chip skill='Javascript' />
-            <Chip skill='React.js' />
-            <Chip skill='Redux' />
-            <Chip skill='React Native' />
-            <Chip skill='BootStrap' />
-            <Chip skill='Material-UI' />
-            <Chip skill='Angular.js' />
-            <Chip skill='ES6' />
-            <Chip skill='Webpack' />
-            <Chip skill='D3.js' />
-            <Chip skill='TypeScript' />
-            <Chip skill='Node.js' />
-            <Chip skill='Responsive Web Design' />
+           
           </Typography>
         </Container>
-        <Container maxWidth='sm' style={{ backgroundColor: '#666666', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
+        <Container maxWidth='sm' style={{ backgroundColor: '#0C2E45', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+        <h2 style={{color: '#FFFFFF'}}>SKILLS</h2>
+          <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
+            <Chip skill='HTML5'/>
+            <Chip skill='CSS3'/>
+            <Chip skill='LESS'/>
+            <Chip skill='Sass'/>
+            <Chip skill='Javascript'/>
+            <Chip skill='React.js'/>
+            <Chip skill='Redux'/>
+            <Chip skill='React Native'/>
+            <Chip skill='BootStrap'/>
+            <Chip skill='Material-UI'/>
+            <Chip skill='Angular.js'/>
+            <Chip skill='ECMAScript 6'/>
+            <Chip skill='Webpack'/>
+            <Chip skill='D3.js'/>
+            <Chip skill='Highcharts'/>
+            <Chip skill='TypeScript'/>
+            <Chip skill='Node.js'/>
+            <Chip skill='Git'/>
+            <Chip skill='Responsive Web Design'/>
+          </Typography>
+        </Container>
+        <Container maxWidth='sm' style={{ backgroundColor: '#154961', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
         <h2 style={{color: '#FFFFFF'}}>PROJECTS</h2>
-          <Typography component="div" style={{ fontWeight: '100+!important' ,justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-            <ControlledExpansionPanels COheading='Club ordering' VTPheading='Visa Travel Predict' IAAheading='Insurance Auto Auction' SHheading='Stanford Health' CCSheading='Credit Card Shift'
+          <Typography component="div" style={{justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
+            <ControlledExpansionPanels COheading='Club ordering' VTPheading='Visa Travel Predict' IAAheading="Insurance Auto Auctions" SHheading='Stanford Health' CCSheading='Credit Card Shift'
 
-              COskills='React.js, React Native, Redux, ES6, HTML5, CSS3' VTPskills='React.js, Redux, ES6, D3.js, HTML5, CSS3' IAAskills='React.js, Redux, ES6, HTML5, CSS3, Bootstrap' 
+              COskills='React.js, React Native, Redux, ES6, HTML5, CSS3, LESS' VTPskills='React.js, Redux, ES6, D3.js, HTML5, CSS3' IAAskills='React.js, Redux, ES6, HTML5, CSS3, Bootstrap' 
               SHskills='React.js, Redux, JavaScript, HTML5, CSS3, SAP HANA' CCSskills='JQuery, HTML, CSS, JAVA, MySQL'
               
               COcontent='Club ordering is an internal web and mobile application developed for the
@@ -89,6 +88,12 @@ function App() {
               and handle the international transactions between Bank of America and other banks to transfer the money from various banks to Bank of America
               finding the minimum legs between banks when there is no direct contract. I developed the front-end of the application using HTML, CSS and JQuery'
               />
+          </Typography>
+        </Container>
+        <Container maxWidth='sm' style={{ backgroundColor: '#166982', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+        <h2 style={{color: '#FFFFFF'}}>I WORKED AT</h2>
+          <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
+            
           </Typography>
         </Container>
       </div>
