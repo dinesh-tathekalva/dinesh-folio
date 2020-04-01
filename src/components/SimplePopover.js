@@ -29,7 +29,7 @@ export default function SimplePopover(props) {
 
   return (
     <div>
-        <p className="intro" style={{color:'#343642'}}>If you'd like to say hi or work with me </p>
+        <p className="intro" style={{color:'#FFFFFF'}}>If you'd like to say hi or work with me </p>
       <Button className="btn"  aria-describedby={id} variant="outlined" onClick={handleClick}>
         <EmailIcon style={{ fontSize: 20, marginRight: '8px' }}/> <a href="mailto:dinesh.tathekalva@outlook.com" class="btn button1">Drop me an Email </a>
       </Button>

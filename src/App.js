@@ -57,7 +57,7 @@ function App() {
           </Typography>
         </Container>
 
-        <Container maxWidth='md' style={{ backgroundColor: '#164B63', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+        <Container maxWidth='md' style={{ backgroundColor: '#113A4D', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>SKILLS</h2>
           <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
             <Chip skill='HTML5' />
@@ -88,7 +88,7 @@ function App() {
           </Typography>
         </Container>
 
-        <Container maxWidth='md' style={{ backgroundColor: '#176B85', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
+        <Container maxWidth='md' style={{ backgroundColor: '#0F4657', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>PROJECTS</h2>
           <Typography component="div" style={{ justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
             <ControlledExpansionPanels COheading='Club ordering' VTPheading='Visa Travel Predict' IAAheading="Insurance Auto Auctions" SHheading='Stanford Health' CCSheading='Credit Card Shift'
@@ -123,7 +123,7 @@ function App() {
           </Typography>
         </Container>
 
-        <Container maxWidth='md' style={{ backgroundColor: '#3A91A1', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+        <Container maxWidth='md' style={{ backgroundColor: '#1F4E57', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>I WORKED AT</h2>
           <Paper>
             <Grid container spacing={3} style={{ display: 'flex', justifyContent: 'center' }}>
@@ -148,8 +148,8 @@ function App() {
           </Typography> */}
         </Container>
 
-        <Container maxWidth='md' style={{ backgroundColor: '#44ABBD', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-          <h2 style={{ color: '#03658C' }}>I GRADUATED FROM</h2>
+        <Container maxWidth='md' style={{ backgroundColor: '#235861', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+          <h2 style={{ color: '#FFFFFF' }}>I GRADUATED FROM</h2>
 
 
 
@@ -183,23 +183,23 @@ function App() {
           </Typography> */}
         </Container>
 
-        <Container maxWidth='md' style={{ backgroundColor: '#4FC6DB', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+        <Container maxWidth='md' style={{ backgroundColor: '#286570', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <div style={{ flexGrow: '1' }}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
-                <h2 style={{ color: '#343642' }}>To know me better</h2>
+                <h2 style={{ color: '#FFFFFF' }}>To know me better</h2>
                 <SimplePopover />
               </Grid>
               <Grid item xs={12} sm={6}>
-                <h2 style={{ color: '#343642' }}>Say Hi</h2>
+                <h2 style={{ color: '#FFFFFF' }}>Say Hi</h2>
                 <SimplePopover />
               </Grid>
             </Grid>
           </div>
         </Container>
 
-        <Container maxWidth='sm' style={{ backgroundColor: '#58DDF5', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-          <h2 style={{ color: '#FFFFFF' }}>I GRADUATED FROM</h2>
+        <Container maxWidth='sm' style={{ backgroundColor: '#2C6F7A', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+          <h2 style={{ color: '#FFFFFF' }}>Social Media</h2>
           <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
             {/* <TitlebarGridList/> */}
           </Typography>
