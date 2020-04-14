@@ -48,7 +48,7 @@ export default function SimplePopover(props) {
           horizontal: 'center',
         }}
       >
-        <Typography className={classes.typography}>dinesh.tathekalva@outlook.com</Typography>
+        <Typography style={{  fontWeight: '300'  }} className={classes.typography}>dinesh.tathekalva@outlook.com</Typography>
       </Popover>
     </div>
     
