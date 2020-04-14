@@ -177,31 +177,35 @@ function App() {
         </Container>
 
         <Container maxWidth='md' style={{ backgroundColor: '#286570', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-          <div style={{flexGrow: '1'}}>
+          <div style={{ flexGrow: '1' }}>
             <Grid container spacing={3}>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={4}>
+                <h2 style={{ color: '#FFFFFF' }}>Social Media</h2>
+                <ul style= {{listStyle: "none"}}>
+                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://codepen.io/" target="_blank"><i class="fa fa-codepen"></i> Codepen</a></li>
+                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://github.com/" target="_blank" title="Dinesh's Github"><i class="fa fa-github"></i> Github</a></li>
+                  <li><a style={{ textDecoration: 'none', color: "#FFFFFF", fontWeight: '300'  }} href="https://www.linkedin.com/in/dinesh-tathekalva" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+              </Grid>
+              <Grid item xs={12} sm={4}>
                 <h2 style={{ color: '#FFFFFF' }}>To know me better</h2>
                 {/* <Button className="btn"  variant="outlined" >
                   <GetAppIcon style={{ fontSize: 20, marginRight: '8px' }} /> <a href="Dinesh_Tathekalva.pdf" class="btn button1">Download resume </a>
                 </Button> */}
-                <a href={Dinesh_Tathekalva.pdf} class="btn button1">Download resume </a>
+                <a href={Dinesh_Tathekalva.pdf} style={{  fontWeight: '300'  }} class="btn button1">Download resume </a>
               </Grid>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={4}>
                 <h2 style={{ color: '#FFFFFF' }}>Say Hi</h2>
                 <SimplePopover email="If you'd like to know more about me" />
               </Grid>
+
             </Grid>
           </div>
         </Container>
 
-        <Container maxWidth='sm' style={{ backgroundColor: '#2C6F7A', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-          <h2 style={{ color: '#FFFFFF' }}>Social Media</h2>
-          <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-            {/* <TitlebarGridList/> */}
-          </Typography>
-        </Container>
+
       </div>
-    </body>
+    </body >
   );
 }
 export default App;
