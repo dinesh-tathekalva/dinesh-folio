@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 export default function SimplePopover(props) {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const {resume} = props;
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -29,7 +30,7 @@ export default function SimplePopover(props) {
 
   return (
     <div>
-        <p className="intro" style={{color:'#FFFFFF'}}>If you'd like to say hi or work with me </p>
+        <p className="intro" style={{color:'#FFFFFF'}}>{resume}</p>
       <Button className="btn"  aria-describedby={id} variant="outlined" onClick={handleClick}>
         <EmailIcon style={{ fontSize: 20, marginRight: '8px' }}/> <a href="mailto:dinesh.tathekalva@outlook.com" class="btn button1">Drop me an Email </a>
       </Button>

@@ -16,6 +16,10 @@ import SJSU from './components/SJSU.png';
 import SRM from './components/SRM.jpeg';
 import SimplePopover from './components/SimplePopover';
 import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
+import GetAppIcon from '@material-ui/icons/GetApp';
+import Dinesh_Tathekalva from './Dinesh_Tathekalva.pdf';
+
 // import GridList from '@material-ui/core/GridList';
 // import GridListTile from '@material-ui/core/GridListTile';
 // import GridListTileBar from '@material-ui/core/GridListTileBar';
@@ -150,25 +154,17 @@ function App() {
 
         <Container maxWidth='md' style={{ backgroundColor: '#235861', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>I GRADUATED FROM</h2>
-
-
-
           <Paper >
-
-          <div style={{ flexGrow: '1' }}>
-            <Grid container spacing={3}>
-              <Grid item xs={12} sm={6}>
-              <p>Masters from</p><img src={SJSU} class="" width="180" height="40" alt="SJSU" style={{ marginTop: '3%' }} />
+            <div style={{ flexGrow: '1' }}>
+              <Grid container spacing={3}>
+                <Grid item xs={12} sm={6}>
+                  <p style={{ color: '#081B2E', fontWeight: '300' }}>Masters from</p><img src={SJSU} class="" width="180" height="40" alt="SJSU" style={{ marginTop: '3%' }} />
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                  <p style={{ color: '#081B2E', fontWeight: '300' }}>Undergrad from</p><img src={SRM} class="" width="170" height="90" alt="SRM" />
+                </Grid>
               </Grid>
-              <Grid item xs={12} sm={6}>
-              <p>Undergrad from</p><img src={SRM} class="" width="170" height="90" alt="SRM" />
-              </Grid>
-            </Grid>
-          </div>
-
-
-
-
+            </div>
             <div style={{ flexGrow: '1' }}>
               <Grid container spacing={2} style={{ display: 'flex', justifyContent: 'center' }}>
                 <Grid item xs={6} sm={2}>
@@ -178,21 +174,21 @@ function App() {
               </Grid>
             </div>
           </Paper>
-          {/* <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-        
-          </Typography> */}
         </Container>
 
         <Container maxWidth='md' style={{ backgroundColor: '#286570', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-          <div style={{ flexGrow: '1' }}>
+          <div style={{flexGrow: '1'}}>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6}>
                 <h2 style={{ color: '#FFFFFF' }}>To know me better</h2>
-                <SimplePopover />
+                {/* <Button className="btn"  variant="outlined" >
+                  <GetAppIcon style={{ fontSize: 20, marginRight: '8px' }} /> <a href="Dinesh_Tathekalva.pdf" class="btn button1">Download resume </a>
+                </Button> */}
+                <a href={Dinesh_Tathekalva.pdf} class="btn button1">Download resume </a>
               </Grid>
               <Grid item xs={12} sm={6}>
                 <h2 style={{ color: '#FFFFFF' }}>Say Hi</h2>
-                <SimplePopover />
+                <SimplePopover email="If you'd like to know more about me" />
               </Grid>
             </Grid>
           </div>
