@@ -94,11 +94,12 @@ export default function ControlledExpansionPanels(props) {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+
+      <ExpansionPanel expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel4bh-content"
-          id="panel4bh-header"
+          aria-controls="panel5bh-content"
+          id="panel5bh-header"
         >
           <Typography className={classes.heading}>{CCSheading}</Typography>
           <Typography className={classes.secondaryHeading}>{CCSskills}</Typography>
