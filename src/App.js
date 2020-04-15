@@ -20,25 +20,6 @@ import Button from '@material-ui/core/Button';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import Dinesh_Tathekalva from './Dinesh_Tathekalva.pdf';
 
-// import GridList from '@material-ui/core/GridList';
-// import GridListTile from '@material-ui/core/GridListTile';
-// import GridListTileBar from '@material-ui/core/GridListTileBar';
-// import ListSubheader from '@material-ui/core/ListSubheader';
-// import IconButton from '@material-ui/core/IconButton';
-// import InfoIcon from '@material-ui/icons/Info';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Card from '@material-ui/core/Card';
-// import CardActionArea from '@material-ui/core/CardActionArea';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import Button from '@material-ui/core/Button';
-// import MediaCard from './components/MediaCard';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-// import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-// import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-// import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-
 
 function App() {
   return (
@@ -56,9 +37,6 @@ function App() {
               I build web and mobile applications for a tech company. I also love and study astronomy during my free time.</p>
             </Grid>
           </Grid>
-          <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-
-          </Typography>
         </Container>
 
         <Container maxWidth='md' style={{ backgroundColor: '#113A4D', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
@@ -148,8 +126,6 @@ function App() {
               </Grid>
             </Grid>
           </Paper>
-          {/* <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-          </Typography> */}
         </Container>
 
         <Container maxWidth='md' style={{ backgroundColor: '#235861', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
@@ -189,10 +165,9 @@ function App() {
               </Grid>
               <Grid item xs={12} sm={4}>
                 <h2 style={{ color: '#FFFFFF' }}>To know me better</h2>
-                {/* <Button className="btn"  variant="outlined" >
-                  <GetAppIcon style={{ fontSize: 20, marginRight: '8px' }} /> <a href="Dinesh_Tathekalva.pdf" class="btn button1">Download resume </a>
-                </Button> */}
-                <a href={Dinesh_Tathekalva.pdf} style={{  fontWeight: '300'  }} class="btn button1">Download resume </a>
+                <Button className="btn"  variant="outlined" >
+                  <GetAppIcon style={{color:'#FFFFFF', fontSize: 20, marginRight: '8px' }} /> <a style={{ color: "#FFFFFF", fontWeight: '300'  }} href={{Dinesh_Tathekalva}} class="btn button1">Download resume </a>
+                </Button>
               </Grid>
               <Grid item xs={12} sm={4}>
                 <h2 style={{ color: '#FFFFFF' }}>Say Hi</h2>

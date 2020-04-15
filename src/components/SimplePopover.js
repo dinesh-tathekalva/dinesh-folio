@@ -32,7 +32,7 @@ export default function SimplePopover(props) {
     <div>
         <p className="intro" style={{color:'#FFFFFF'}}>{resume}</p>
       <Button className="btn"  aria-describedby={id} variant="outlined" onClick={handleClick}>
-        <EmailIcon style={{ fontSize: 20, marginRight: '8px' }}/> <a href="mailto:dinesh.tathekalva@outlook.com" class="btn button1">Drop me an Email </a>
+        <EmailIcon style={{ color:'#FFFFFF', fontSize: 20, marginRight: '8px' }}/> <a style={{ color: "#FFFFFF", fontWeight: '300'  }} href="mailto:dinesh.tathekalva@outlook.com" class="btn button1">Drop me an Email </a>
       </Button>
       <Popover
         id={id}
@@ -48,7 +48,7 @@ export default function SimplePopover(props) {
           horizontal: 'center',
         }}
       >
-        <Typography style={{  fontWeight: '300'  }} className={classes.typography}>dinesh.tathekalva@outlook.com</Typography>
+        <Typography className={classes.typography}>dinesh.tathekalva@outlook.com</Typography>
       </Popover>
     </div>
     
