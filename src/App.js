@@ -69,7 +69,6 @@ function App() {
             <Chip skill='Responsive Web Design' />
           </Typography>
         </Container>
-      
 
         <Container maxWidth='md' style={{ backgroundColor: '#0F4657', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>PROJECTS</h2>
