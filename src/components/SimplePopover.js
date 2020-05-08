@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 export default function SimplePopover(props) {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const {resume} = props;
+  
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);

@@ -39,36 +39,7 @@ function App() {
           </Grid>
         </Container>
 
-        <Container maxWidth='md' style={{ backgroundColor: '#113A4D', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
-          <h2 style={{ color: '#FFFFFF' }}>SKILLS</h2>
-          <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-            <Chip skill='HTML5' />
-            <Chip skill='CSS3' />
-            <Chip skill='LESS' />
-            <Chip skill='Sass' />
-            <Chip skill='Javascript' />
-            <Chip skill='ECMAScript 6' />
-            <Chip skill='React.js' />
-            <Chip skill='Redux' />
-            <Chip skill='React Native' />
-            <Chip skill='BootStrap' />
-            <Chip skill='Material-UI' />
-            <Chip skill='Angular.js' />
-            <Chip skill='Karma' />
-            <Chip skill='Jasmine' />
-            <Chip skill='Enzyme' />
-            <Chip skill='Jest' />
-            <Chip skill='JIRA' />
-            <Chip skill='Webpack' />
-            <Chip skill='D3.js' />
-            <Chip skill='Highcharts' />
-            <Chip skill='TypeScript' />
-            <Chip skill='Node.js' />
-            <Chip skill='Git' />
-            <Chip skill='Agile software development' />
-            <Chip skill='Responsive Web Design' />
-          </Typography>
-        </Container>
+       
 
         <Container maxWidth='md' style={{ backgroundColor: '#0F4657', padding: '2%', borderRadius: '5px', marginTop: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>PROJECTS</h2>
