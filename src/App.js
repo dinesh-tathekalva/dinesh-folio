@@ -26,7 +26,18 @@ function App() {
     <body>
       <div className="App">
 
-       
+        <Container maxWidth='md' style={{ backgroundColor: '#0C2E45', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
+          <Grid container spacing={3}>
+            <Grid style={{ marginTop: '2%' }} item xs={12} sm={3}>
+              <img style={{ borderRadius: '6%' }} src={Me} class="" width="120" height="150" alt="Dinesh" />
+            </Grid>
+            <Grid item xs={12} sm={9}>
+              <h2 style={{ color: '#FFFFFF' }}>Hi. I'm Dinesh</h2>
+              <p className="intro">If you're wondering if I'm the character from the HBO's comedy series 'Silicon Valley', I'm not. I'm a real person with the name Dinesh Tathekalva. I'm a Senior Software Engineer, Frontend Engineer.
+              I build web and mobile applications for a tech company. I also love and study astronomy during my free time.</p>
+            </Grid>
+          </Grid>
+        </Container>
 
         <Container maxWidth='md' style={{ backgroundColor: '#113A4D', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>SKILLS</h2>
