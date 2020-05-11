@@ -113,6 +113,9 @@ function App() {
                 <img src={Visa} class="" width="120" height="150" alt="Visa" />
               </Grid>
               <Grid item xs={12} sm={2}>
+                <img src={Visa} class="" width="120" height="150" alt="Visa" />
+              </Grid>
+              <Grid item xs={12} sm={2}>
                 <img src={Walmart} class="" width="140" height="150" alt="Walmart" />
               </Grid>
               <Grid style={{ marginTop: '3%' }} item xs={12} sm={2}>
