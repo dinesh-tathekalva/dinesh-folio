@@ -6,7 +6,7 @@ import Chip from './components/Chips';
 import ControlledExpansionPanels from './components/ControlledExpansionPanels'
 import TitlebarGridList from './components/TitlebarGridList'
 import Grid from '@material-ui/core/Grid';
-import Me from './components/Me.jpg';
+import Me from './components/Me.jpeg';
 import SAP from './components/SAP.svg';
 import Iaa from './components/Iaa.png';
 import Visa from './components/Visa.svg';
@@ -20,8 +20,12 @@ import Button from '@material-ui/core/Button';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import Dinesh_Tathekalva from './Dinesh_Tathekalva.pdf';
 
+const skills = ["Spring MVC", "Spring Boot 2.x", "Grails-2.x", "Hibernate", "Mybatis", "REST", "SOAP", "Eureka", "Cloud Config", "Cloud Stream", "Zuul", "Hystrix", 
+"OpenShift", "Kubernetes", "Docker", "Apache Tomcat", "Wildfly", "WebSphere Application Server", "AngularJS", "ExtJS", "GSP", "JavaScript", "RabbitMQ", "Kafka",
+"Pentaho ETL", "Birt Report", "Oracle APEX", "Agile development", "Jira", "Confluence", "Bamboo", "Bitbucket", "Jenkins" ]
 
 function App() {
+  const skill = skills.map(i => (<Chip skill={i} />))
   return (
     <body>
       <div className="App">
@@ -29,12 +33,11 @@ function App() {
         <Container maxWidth='md' style={{ backgroundColor: '#0C2E45', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <Grid container spacing={3}>
             <Grid style={{ marginTop: '2%' }} item xs={12} sm={3}>
-              <img style={{ borderRadius: '6%' }} src={Me} class="" width="120" height="150" alt="Dinesh" />
+              <img style={{ borderRadius: '6%' }} src={Me} class="" width="150" height="150" alt="Dinesh" />
             </Grid>
             <Grid item xs={12} sm={9}>
-              <h2 style={{ color: '#FFFFFF' }}>Hi. I'm Dinesh</h2>
-              <p className="intro">If you're wondering if I'm the character from the HBO's comedy series 'Silicon Valley', I'm not. I'm a real person with the name Dinesh Tathekalva. I'm a Senior Software Engineer, Frontend Engineer.
-              I build web and mobile applications for a tech company. I also love and study astronomy during my free time.</p>
+              <h2 style={{ color: '#FFFFFF' }}>Hi. I'm Raja</h2>
+              <p className="intro">Knowledgeable and 7+ years experienced Senior Software Engineer well-versed in OOP concepts and design patterns. Excellent API design, implementation and integration abilities paired with significant project leadership background. Exceptional success in delivering complex software development projects on time and within budget to exceed expectations.</p>
             </Grid>
           </Grid>
         </Container>
@@ -42,31 +45,9 @@ function App() {
         <Container maxWidth='md' style={{ backgroundColor: '#113A4D', padding: '2%', borderRadius: '5px', marginTop: '2%', marginBottom: '2%' }}>
           <h2 style={{ color: '#FFFFFF' }}>SKILLS</h2>
           <Typography component="div" style={{ fontSize: '10rem', fontWeight: '100', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', color: '#FFFFFF', height: '25%', width: '100%' }} >
-            <Chip skill='HTML5' />
-            <Chip skill='CSS3' />
-            <Chip skill='LESS' />
-            <Chip skill='Sass' />
-            <Chip skill='Javascript' />
-            <Chip skill='ECMAScript 6' />
-            <Chip skill='React.js' />
-            <Chip skill='Redux' />
-            <Chip skill='React Native' />
-            <Chip skill='BootStrap' />
-            <Chip skill='Material-UI' />
-            <Chip skill='Angular.js' />
-            <Chip skill='Karma' />
-            <Chip skill='Jasmine' />
-            <Chip skill='Enzyme' />
-            <Chip skill='Jest' />
-            <Chip skill='JIRA' />
-            <Chip skill='Webpack' />
-            <Chip skill='D3.js' />
-            <Chip skill='Highcharts' />
-            <Chip skill='TypeScript' />
-            <Chip skill='Node.js' />
-            <Chip skill='Git' />
-            <Chip skill='Agile software development' />
-            <Chip skill='Responsive Web Design' />
+          {/* SKILLS MAPPED */}
+            {skill} 
+            
           </Typography>
         </Container>
 
